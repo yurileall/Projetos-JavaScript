@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.2.js"
-    integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="web/css/trocarCorBackground.css"/>
+        integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="web/css/modal.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <h3>Modal Yuri Leal</h3>
-   <button id="open-modal" type="button" class="btn btn-primary" data-bs-toggle="#JanelaModal">
-        Abrir Janela Modal
-   </button>
 
-   <div id="JanelaModal" class="modal">
-    <div id="fade" class="modal-dialog">
-        <div id="modal" class="modal-content">
 
-            <div class="modal-header">
-                <h3 class="modal-tittle">Yuri Leal</h3>
-                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
-            </div>
+    <h2>Modal Yuri Leal</h2>
+    <button id="open-modal" type="button" class="btn btn-primary">
+        Abrir Modal
+    </button>
 
-            <div class="modal-body">
-                <p> Yuri Leal Estudante de sistema de informação Yuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de 
-                    sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informação</p>
-                <p> Yuri Leal Estudante de sistema de informação Yuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de 
-                    sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informaçãoYuri Leal Estudante de sistema de informação</p>
-            </div>
+    <div id="JanelaModal" class="modal" data-backdrop="static">
+        <div id="fade" class="modal-dialog">
+            <div id="modal" class="modal-content">
 
-            <div class="modal-footer">
-                <a href="https://www.linkedin.com/in/yuri-leal-cerqueira-350346233/" target="_blank">Linkedin</a>
-                <button id="close-modal" type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                <div class="modal-header">
+                    <h3 class="modal-tittle">Yuri Leal</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p> Estudante da área de Tecnologia da Informação, cursando Sistema de Informação no 6º semestre. Sempre estudando para aprimorar meus conhecimentos, em busca de oportunidades.
+
+                        No meu tempo livre procuro estudar sobre assuntos que me agregam, educação financeira, livros de autoconhecimento, algo relacionado a minha área...
+                        
+                        Na faculdade sempre estudando e aprendendo. Constantemente realizo atividades de diversos assuntos como: HTML, CSS, POO, JavaScript, Bootstrap, banco de dados, modelagem de dados...</p>
+                    <!--<p> Estudante da área de Tecnologia da Informação, cursando Sistema de Informação no 6º semestre. Sempre estudando para aprimorar meus conhecimentos, em busca de oportunidades.
+
+                        No meu tempo livre procuro estudar sobre assuntos que me agregam, educação financeira, livros de autoconhecimento, algo relacionado a minha área...
+                        
+                        Na faculdade sempre estudando e aprendendo. Constantemente realizo atividades de diversos assuntos como: HTML, CSS, POO, JavaScript, Bootstrap, banco de dados, modelagem de dados...</p> -->
+                </div>
+
+                <div class="modal-footer">
+                    <a href="https://www.linkedin.com/in/yuri-leal-cerqueira-350346233/" target="_blank">
+                        <button  type="button" class="btn btn-success">
+                            Linkedin
+                        </button>
+                    </a>
+                    <a href="file:///C:/Users/yuril/Documents/Curr%C3%ADculo%20(YURI%20LEAL%20CERQUEIRA).pdf" target="_blank">
+                        <button  type="button" class="btn btn-info">
+                            Currículo
+                        </button>
+                    </a>
+                    <button id="close-modal" type="button" class="btn btn-danger"
+                        data-bs-dismiss="modal">Fechar</button>
+                </div>
+
             </div>
 
         </div>
-    
-    </div>
 
-   </div>
+    </div>
 </body>
 <script src="js/modal.js"></script>
 

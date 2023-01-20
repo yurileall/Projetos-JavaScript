@@ -13,12 +13,10 @@ const toggleModal = () => {
 });*/
 
 $("#open-modal").click(() => {
-    $("#fade").toggle("show");
-    $("#modal").toggle("show");
+   $("#JanelaModal").modal("show")
 })
 
 $("#close-modal").click(() => {
-    $("#fade").toggle("show");
-    $("#modal").toggle("show");
-   
+   $("#JanelaModal").modal("hide")
+   $("#JanelaModal").modal("hidePrevented.bs.modal")
 })
