@@ -1,6 +1,3 @@
-
-$("#btn_contador").click((e)=> {
-    let valor = document.getElementById("contador-caractere").value;
-
-    alert($(valor).length)
+$("#btn_contador").click (() => {
+    alert("Quantidade de caractere: " + $("input").val().length)
 })
