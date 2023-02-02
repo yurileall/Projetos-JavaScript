@@ -1,12 +1,15 @@
 
 $("#interruptor").click(() => {
-    $("#lampadaApagada").toggle()
+    let x = document.getElementById("audioClick");
+    x.play();
+    $("#lampadaApagada").toggle()   
 
     if($("#lampadaApagada").is(":visible")) {
         $("#lampadaAcessa").css("display", 'none')
-        //$("#audio-click").play()
+       
     } else {
         $("#lampadaAcessa").css("display", 'flex')
-        //$("#audio-click").play()
+       
     }
 })
+
