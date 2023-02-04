@@ -1,10 +1,29 @@
-img.lampadas{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+.conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #lampadaAcessa {
     display: none;
+}
+
+#interruptorON {
+    display: none;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+#interruptorOFF {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.interruptor{
+    margin-left: 50px;
 }
