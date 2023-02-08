@@ -9,38 +9,33 @@
         integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="stylesheet" href="web/css/previsaoDoTempo.css" />
+    <link rel="stylesheet" href="web/css/previsaoDoTempo.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 
 </head>
-
 <body>
-    <div class="x_content" style="margin-bottom: 30px;">
-        <div class="row">
-            <div class="col-md-3">
-                <label>Previsão do tempo</label>
-           
+    <div class="conteudo">           
+            <label>Previsão do tempo:</label>
 
-
-            <input type="text" class="form-control" id="previsaoDoTempo" placeholder="Digite a palavra">
-        </div>
-        </div>
-
-
-        <div class="col-md-3">
-            <span id="temperatura">Temperatura:</span>
-
-        </div>
-
-        <div class="col-md-3">
-
-            <span id="vento">Vento:</span>
-            </div" 
-
-        </div>
+            <div class="col-md-6">
+                <input type="text" id="previsaoDoTempo" placeholder="Digite a palavra">
+                <button><i class="fa fa-car"></i></button>
+            </div>
+            
+            <div class="col-md-12 informacao" style="display: flex;">
+                <section>
+                    <h2 id="place"></h2>
+                    <span id="temperatura">Temperatura:</span>
+                    </br>
+                    <span id="vento">Vento:</span>
+                </section>
+                <img srcset="" alt="clima">
+            </div>
+    </div>
 </body>
+<script src="https://kit.fontawesome.com/a09b3ed147.js" crossorigin="anonymous"></script>
 <script src="js/previsaoDoTempo.js"></script>
 
 </html>
