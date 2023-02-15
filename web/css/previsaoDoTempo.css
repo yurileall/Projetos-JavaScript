@@ -5,3 +5,70 @@
     transform: translate(-50%, -50%);
 }  */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.conteudo {
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.caixa_pesquisa {
+    align-items: center;
+    display: flex; 
+    gap: 5px; /* BRECHA */
+}
+
+input {
+    margin-right: 5px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+button {
+    display: flex;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+button i {
+    font-size: 40px;
+}
+
+.informacao {
+    margin-top: 10px;
+    justify-content: space-between; 
+    word-wrap: break-word;
+}
+
+img {
+    min-width: 120px;
+    background-image: radial-gradient(#b5b5b5, #eee 60%);
+}
